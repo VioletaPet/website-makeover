@@ -1,0 +1,11 @@
+.outro-container {
+  width: 80%;
+  color: #7E001B;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
