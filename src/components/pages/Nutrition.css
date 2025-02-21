@@ -1,0 +1,49 @@
+.nutrition-page {
+  background-color: #FFCCD1;
+  color: #7E001B;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .nutrition-container {
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 1px 15px #b59646;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+
+    h1 {
+      font-size: 44px;
+      margin: 30px auto;
+    }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-size: 34px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      font-size: 18px;
+      list-style-position: inside;
+      margin-bottom: 20px;
+
+      li {
+        margin-bottom: 8px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}

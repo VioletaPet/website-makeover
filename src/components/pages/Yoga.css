@@ -1,0 +1,70 @@
+.yoga-container {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+
+  .page-header {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #b59646;
+  }
+
+  .yoga-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 20px;
+
+    .yoga-card {
+      border-radius: 15px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 1px 1px 15px #b59646;
+      transition: transform 0.3s ease-in-out;
+
+      .yoga-card-header {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+          color: white;
+          font-size: 44px;
+          font-weight: bold;
+        }
+      }
+
+      .yoga-card-body {
+        padding: 20px;
+        text-align: center;
+        color: #7E001B;
+
+        p {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+
+        ul {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-size: 18px;
+          list-style-position: inside;
+
+          li {
+            margin-bottom: 8px;
+          }
+        }
+
+        .suitability {
+          margin-top: 40px;
+        }
+      }
+
+    }
+  }
+}

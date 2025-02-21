@@ -1,0 +1,104 @@
+.services {
+  padding: 50px;
+  background-color: #FFCCD1;
+}
+
+.services__container {
+  /* width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.service__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  background-color: white;
+  /* box-shadow: 1px 1px 15px #b59646; */
+  margin-bottom: 30px;
+  list-style: none;
+  width: auto;
+  height: auto;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 20px #b59646;
+  }
+}
+
+.service__item__link {
+  text-decoration: none;
+  color: #7E001B;
+}
+
+.service__item__img {
+  width: 100%;
+  height: 300px;
+}
+
+.service__item__info {
+  padding: 20px 30px 30px;
+  text-align: center;
+}
+
+.service__item__header {
+  color: #7E001B;
+  font-size: 30px;
+
+  h3 {
+    margin-bottom: 50px;
+  }
+}
+
+  .service__item__text {
+    color: #7E001B;
+    font-size: 18px;
+    line-height: 24px;
+
+    p {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+  }
+
+@media (max-width: 768px) {
+  .services__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service__item {
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .services__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .service__item {
+    flex: 0 0 calc(50% - 45px); /* Takes up roughly half the container width minus gap and margins */
+    margin: 0;
+    min-width: 280px; /* Ensures cards don't get too small */
+    max-width: 500px; /* Ensures cards don't get too wide */
+  }
+}

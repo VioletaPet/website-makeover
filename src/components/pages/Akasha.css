@@ -1,0 +1,43 @@
+.akasha-page {
+  background-color: white;
+  color: #947a39;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .akasha-container {
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 1px 15px #b59646;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+
+    h2, h3, p {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    h3 {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+
+    ul {
+      font-size: 18px;
+      list-style-position: inside;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}

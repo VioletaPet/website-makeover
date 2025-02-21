@@ -7,7 +7,7 @@ import Cards from '../sections/Cards';
 import OutroSection from '../sections/OutroSection';
 import ReviewSection from '../sections/ReviewSection';
 
-function Home () {
+const Home = () => {
 
   return (
     <>
