@@ -16,7 +16,7 @@
     margin: 0 1rem;
     border-radius: 10px;
     background-color: rgba(255, 204, 209, 0.6);
-    box-shadow: 1px 1px 10px #b59646;
+    box-shadow: 1px 1px 15px #b59646;
     margin-bottom: 30px;
 
     .cards__item__info {
@@ -39,7 +39,7 @@
       line-height: 24px;
 
       p {
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 24px;
       }
     }

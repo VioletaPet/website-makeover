@@ -5,6 +5,7 @@ import WelcomeSection from '../sections/WelcomeSection';
 import IntroSection from '../sections/IntroSection';
 import Cards from '../sections/Cards';
 import OutroSection from '../sections/OutroSection';
+import ReviewSection from '../sections/ReviewSection';
 
 function Home () {
 
@@ -15,6 +16,7 @@ function Home () {
       <IntroSection />
       <Cards />
       <OutroSection />
+      <ReviewSection />
     </>
   )
 }
