@@ -1,7 +1,7 @@
-.nutrition-page {
+.coaching-page {
   background-color: white;
   color: #7E001B;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,14 +15,19 @@
     color: #b59646;
   }
 
-  .nutrition-container {
+  .coaching-container {
     border-radius: 15px;
     overflow: hidden;
     background: white;
-    /* box-shadow: 1px 1px 15px #b59646; */
+    box-shadow: 1px 1px 15px #b59646;
     height: auto;
-    padding: 20px;
-    margin: 0 auto;
+    padding: 50px;
+    margin: 0 50px;
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
 
     h3 {
       margin-top: 40px;
@@ -45,31 +50,9 @@
       }
     }
 
-    .price-box {
-      display: flex;
-      flex-direction: column;
-
-      .price-icon {
-        color: #b59646;
-        font-size: 34px;
-        margin-top: 30px;
-      }
-
-      #first-part {
-        margin: 20px auto;
-      }
-
-      p {
-        margin-bottom: 0;
-      }
-
-      #last-part {
-        margin-top: 20px;
-      }
-    }
-
     .actioncall {
-      margin-top: 50px;
+      margin-top: 40px;
+      margin-bottom: 0;
       font-size: 30px;
     }
   }

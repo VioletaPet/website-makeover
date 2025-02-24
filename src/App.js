@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import Yoga from './components/pages/Yoga';
 import Akasha from './components/pages/Akasha';
 import Nutrition from './components/pages/Nutrition';
+import Rogers from './components/pages/Rogers';
+import Coaching from './components/pages/Coaching';
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
             <Route path="/angebot/yoga" element={<Yoga />} />
             <Route path="/angebot/akasha" element={<Akasha />} />
             <Route path="/angebot/ernährungsberatung" element={<Nutrition />} />
+            <Route path="/angebot/psychologische-beratung" element={<Rogers />} />
+            <Route path="/angebot/coaching" element={<Coaching />} />
           </Routes>
         <Footer />
       </Router>

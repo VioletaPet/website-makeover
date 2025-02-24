@@ -20,8 +20,15 @@ function Services() {
         />
         <ServiceItem
           src='https://humanistisch.de/sites/humanistisch.de/files/styles/galerie-full/public/schwangerschaftskonfliktberatung/medien/2020/01/_w8a3204.jpg?itok=s6RUzP85'
-          header='Psychologische Beratung'
-          text='In einer Welt, die oft von Hektik und Leistungsdruck geprägt ist, brauchen wir manchmal einen sicheren Raum, um zu reflektieren, zu fühlen und zu wachsen. Keiner kommt durchs Leben, ohne das ein oder andere Mikrotrauma mitzunehmen. Oft bleiben wir in kindlichen Mustern gefangen, die aus früheren Erfahrungen stammen. Die klientenzentrierte Gesprächstherapie nach Rogers kann helfen, einen Nachreifungsprozess anzuregen, um diese Muster zu erkennen, zu verstehen und hinter uns zu lassen. So können wir aus unserem gesunden, empathischen Erwachsenen-Ich heraus handeln und authentische Lebensentscheidungen treffen. Die psychologische Beratung nach Carl Rogers bietet genau diesen Raum — wertfrei, empathisch und auf Ihre individuellen Bedürfnisse abgestimmt.'
+          path='/angebot/psychologische-beratung'
+          header='Psychologische Beratung nach Carl Rogers'
+          text='Die von Carl Rogers entwickelte Methode stellt Sie als Person in den Mittelpunkt. Es geht nicht um Diagnosen oder Bewertungen, sondern um ein Gespräch auf Augenhöhe. Durch aktives Zuhören und ein tiefes Verständnis Ihrer Gefühle und Gedanken können Sie eigene Lösungswege entdecken.'
+        />
+        <ServiceItem
+          src='https://humanistisch.de/sites/humanistisch.de/files/styles/galerie-full/public/schwangerschaftskonfliktberatung/medien/2020/01/_w8a3204.jpg?itok=s6RUzP85'
+          path='/angebot/coaching'
+          header='Lösungsfokussiertes Kurzzeit-Coaching nach Milton Erickson'
+          text='Basierend auf den Erkenntnissen von Milton Erickson konzentriert sich dieses Coaching auf Lösungen statt auf Probleme. Im Mittelpunkt steht nicht das "Warum" eines Problems, sondern das "Wie" einer Veränderung. Sie tragen die Lösung bereits in sich — wir entdecken sie gemeinsam.'
         />
         <ServiceItem
           src='https://saturo.com/cdn/shop/files/Vegane_Ernaehrung.jpg'

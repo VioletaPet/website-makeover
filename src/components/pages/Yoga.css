@@ -65,6 +65,19 @@
         }
       }
 
+      .price-box {
+        display: flex;
+        justify-content: center;
+        color: #7E001B;
+        font-size: 22px;
+        padding: 10px;
+        gap: 20px;
+
+        .price-icon {
+          color: #b59646;
+          font-size: 28px;
+        }
+      }
     }
   }
 }

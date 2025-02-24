@@ -8,6 +8,9 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const [dropdown, setDropdown] = useState(false);
+  
+
   return (
     <>
       <nav className='navbar'>

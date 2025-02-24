@@ -1,5 +1,7 @@
 import React from 'react';
 import './Akasha.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Akasha = () => {
   return (
@@ -18,6 +20,11 @@ const Akasha = () => {
         </ul>
         <p><strong>Wichtige Hinweise:</strong> Der Zugang zur Akasha Chronik erfolgt nur mit deiner Erlaubnis und in reiner Intention In seltenen Fällen kann es vorkommen, dass der Zugang nicht gewährt wird — bisher ist das jedoch nie passiert. Aus diesem Grund erfolgt die Bezahlung erst nach der Sitzung.</p>
         <p><strong>Hinweis zur Durchführung:</strong> Alle Akasha Chronik Lesungen finden ausschließlich als Telesitzungen statt, nicht in Person. So kannst du bequem von zu Hause aus teilnehmen, unabhängig von deinem Standort.</p>
+        <div className='price-box'>
+          <FontAwesomeIcon icon={faSun} className='price-icon' />
+            <p>Einzelsitzung: 88 €<br />
+            Akasha Chronik in Verbindung mit Coaching: Preis individuell nach Art und Umfang</p>
+        </div>
       </div>
 
       <div className='akasha-container'>
@@ -52,9 +59,11 @@ const Akasha = () => {
           <li><strong>Alltagsintegration:</strong> Du lernst, wie du Akasha-Impulse in dein tägliches Leben einbaust</li>
           <li><strong>Spirituelles Wachstum:</strong> Vertiefe deine Verbindung zu deinem höheren Selbst und deinem geistigen Team</li>
         </ul>
+        <div className='price-box'>
+          <FontAwesomeIcon icon={faSun} className='price-icon' />
+            <p><em>Der Preis wird individuell in Absprache festgelegt, basierend auf deinem aktuellen Stand und deinen Bedürfnissen</em></p>
+        </div>
       </div>
-
-
     </div>
   )
 }

@@ -1,11 +1,14 @@
 .akasha-page {
   background-color: white;
-  color: #947a39;
-  padding: 20px;
+  color: #7E001B;
+  padding: 40px;
   text-align: center;
 
   h1 {
     font-size: 50px;
+    color: #b59646;
+    margin: 20px auto;
+    margin-bottom: 40px;
   }
 
   .akasha-container {
@@ -13,9 +16,10 @@
     overflow: hidden;
     background: white;
     box-shadow: 1px 1px 15px #b59646;
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
     padding: 30px;
     width: 80%;
+    margin-bottom: 50px;
 
     h2, h3, p {
       margin-bottom: 10px;
@@ -31,13 +35,28 @@
     }
 
     ul {
-      font-size: 18px;
+      font-size: 22px;
       list-style-position: inside;
       margin-bottom: 20px;
     }
 
     p {
-      font-size: 20px;
+      font-size: 26px;
+    }
+
+    .price-box {
+      display: flex;
+      flex-direction: column;
+
+      .price-icon {
+        color: #b59646;
+        font-size: 34px;
+        margin-top: 30px;
+      }
+
+      p {
+        margin: 15px auto;
+      }
     }
   }
 }

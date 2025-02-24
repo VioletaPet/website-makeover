@@ -1,5 +1,7 @@
 import React from 'react';
 import './Yoga.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Yoga = () => {
 
@@ -109,6 +111,10 @@ const Yoga = () => {
               <li>Ideal für Stressmanagement & Ausgleich im Büroalltag</li>
             </ul>
             <p className='suitability'>Schreiben Sie mir gerne eine E-Mail – wir finden gemeinsam ein passendes Konzept für Ihr Unternehmen!</p>
+          </div>
+          <div className='price-box'>
+            <FontAwesomeIcon icon={faSun} className='price-icon' />
+            <p>Stundensatz: 80€ - 100€ (abhängig vom Anfahrtsweg)</p>
           </div>
         </div>
       </div>
