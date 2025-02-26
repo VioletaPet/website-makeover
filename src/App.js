@@ -10,6 +10,8 @@ import Akasha from './components/pages/Akasha';
 import Nutrition from './components/pages/Nutrition';
 import Rogers from './components/pages/Rogers';
 import Coaching from './components/pages/Coaching';
+import About from './components/pages/About';
+import Imprint from './components/pages/Imprint';
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
             <Route path="/angebot/ernährungsberatung" element={<Nutrition />} />
             <Route path="/angebot/psychologische-beratung" element={<Rogers />} />
             <Route path="/angebot/coaching" element={<Coaching />} />
+            <Route path="/über-mich" element={<About />} />
+            <Route path="/impressum-und-datenschutz" element={<Imprint />} />
           </Routes>
         <Footer />
       </Router>

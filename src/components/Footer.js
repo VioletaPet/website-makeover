@@ -13,8 +13,7 @@ function Footer() {
         />
 
         <FlowbiteFooter.LinkGroup className='footer-link-group'>
-          <FlowbiteFooter.Link href="#">Impressum</FlowbiteFooter.Link>
-          <FlowbiteFooter.Link href="#">Datenschutz</FlowbiteFooter.Link>
+          <FlowbiteFooter.Link href="/impressum-und-datenschutz">Impressum & Datenschutz</FlowbiteFooter.Link>
           <FlowbiteFooter.Link href="#">Kontakt</FlowbiteFooter.Link>
         </FlowbiteFooter.LinkGroup>
       </div>

@@ -4,13 +4,19 @@ import './Coaching.css';
 export const Coaching = () => {
   return (
     <div className='coaching-page'>
-      <h1>Lösungsfokussiertes Kurzzeit-Coaching nach Milton Erickson</h1>
+      <div className='pink-background' id='top-section'>
+        <div className='content'>
+          <img src='/images/services/service/coaching2.jpg' alt='Foto von Elizabeth'/>
+          <div className='content-text'>
+            <h1>Lösungsfokussiertes Kurzzeit-Coaching nach Milton Erickson</h1>
+            <h2><em>“die krise ist ein produktiver zustand, wenn man ihr den beigeschmack der katastrophe nimmt”</em></h2>
+            <h2>Fokus. Ressourcen. Veränderung.</h2>
+            <p>Manchmal braucht es keine langen Analysen der Vergangenheit, sondern den klaren Blick nach vorn. Das lösungsfokussierte Kurzzeit-Coaching nach Milton Erickson unterstützt Sie dabei, Ihre eigenen Ressourcen zu aktivieren und konkrete Schritte in Richtung Ihrer Ziele zu gehen.</p>
+          </div>
+        </div>
+      </div>
 
-      <div className='coaching-container'>
-        <h2><em>“die krise ist ein produktiver zustand, wenn man ihr den beigeschmack der katastrophe nimmt”</em><br/>
-        Fokus. Ressourcen. Veränderung.</h2>
-        <p>Manchmal braucht es keine langen Analysen der Vergangenheit, sondern den klaren Blick nach vorn. Das lösungsfokussierte Kurzzeit-Coaching nach Milton Erickson unterstützt Sie dabei, Ihre eigenen Ressourcen zu aktivieren und konkrete Schritte in Richtung Ihrer Ziele zu gehen.</p>
-
+      <div className='white-background'>
         <h3>Was ist lösungsfokussiertes Kurzzeit-Coaching?</h3>
         <p> Basierend auf den Erkenntnissen von Milton Erickson konzentriert sich dieses Coaching auf Lösungen statt auf Probleme. Im Mittelpunkt steht nicht das "Warum" eines Problems, sondern das "Wie" einer Veränderung. Sie tragen die Lösung bereits in sich — wir entdecken sie gemeinsam.</p>
 
@@ -19,24 +25,29 @@ export const Coaching = () => {
 
         <h3>Ein Grundbaustein für Selbstermächtigung</h3>
         <p>Im Coaching legen wir gemeinsam den Grundstein für Ihre Selbstermächtigung. Ziel ist es, dass Sie die Methoden des lösungsfokussierten Denkens erlernen und in Ihren Alltag integrieren können. So entwickeln Sie die Fähigkeit, diese Ansätze selbstständig anzuwenden und auch in anderen Lebensbereichen erfolgreich einzusetzen — unabhängig von meiner Unterstützung.</p>
+      </div>
 
-        <h3>Meine Qualifikation:</h3>
-        <p>Ich befinde mich in der Ausbildung zur Heilpraktikerin für Psychotherapie und integriere neben dem lösungsfokussierten Coaching auch Elemente aus der systemischen Beratung und Verhaltenstherapie, um Sie bestmöglich zu begleiten.</p>
+      <div className='pink-background'>
+        <div className='inner-content'>
+          <h3>Meine Qualifikation:</h3>
+          <p>Ich befinde mich in der Ausbildung zur Heilpraktikerin für Psychotherapie und integriere neben dem lösungsfokussierten Coaching auch Elemente aus der systemischen Beratung und Verhaltenstherapie, um Sie bestmöglich zu begleiten.</p>
 
-        <h3>Eingesetzte Methoden:</h3>
-        <ul>
-          <li><strong>Zielorientierte Gespräche:</strong> Klarheit über Ihre persönlichen Ziele gewinnen</li>
-          <li><strong>Skalierungsfragen:</strong> Fortschritte sichtbar machen</li>
-          <li><strong>Ausnahmefokus:</strong> Ressourcen aus bereits gemeisterten Situationen erkennen</li>
-          <li><strong>Imaginative Techniken:</strong> Kreative Wege zu neuen Perspektiven finden</li>
-        </ul>
+          <h3>Eingesetzte Methoden:</h3>
+            <p><strong>Zielorientierte Gespräche:</strong> Klarheit über Ihre persönlichen Ziele gewinnen</p>
+            <p><strong>Ausnahmefokus:</strong> Ressourcen aus bereits gemeisterten Situationen erkennen</p>
+            <p><strong>Imaginative Techniken:</strong> Kreative Wege zu neuen Perspektiven finden</p>
+            <p><strong>Skalierungsfragen:</strong> Fortschritte sichtbar machen</p>
+        </div>
+      </div>
 
+      <div className='white-background'>
         <h3>Kernprinzipien des Coachings:</h3>
         <ul>
           <li><strong>Lösungsorientierung:</strong> Fokussiert auf das, was funktioniert</li>
           <li><strong>Ressourcenaktivierung:</strong> Ihre Stärken erkennen und nutzen</li>
           <li><strong>Selbstwirksamkeit:</strong> Vertrauen in die eigene Gestaltungskraft stärken</li>
         </ul>
+        <p> </p>
 
         <h3>Für wen ist dieses Coaching geeignet?</h3>
         <ul>
@@ -44,23 +55,23 @@ export const Coaching = () => {
           <li>Personen in beruflichen oder privaten Entscheidungsprozessen</li>
           <li>Alle, die festgefahrene Denkmuster durchbrechen möchten</li>
         </ul>
+      </div>
 
-        <h3>Ihr Nutzen:</h3>
-        <ul>
-          <li>Klare Zieldefinition und pragmatische Lösungsansätze</li>
-          <li>Stärkung des Selbstvertrauens in die eigenen Ressourcen</li>
-          <li>Entwicklung neuer Handlungsstrategien und Perspektiven</li>
-        </ul>
+      <div className='pink-background'>
+        <div className='inner-content'>
+          <h3>Ihr Nutzen:</h3>
+            <p>Klare Zieldefinition und pragmatische Lösungsansätze</p>
+            <p>Stärkung des Selbstvertrauens in die eigenen Ressourcen</p>
+            <p>Entwicklung neuer Handlungsstrategien und Perspektiven</p>
 
-        <h3>So funktioniert es:</h3>
-        <ul>
-          <li><strong>Erstgespräch:</strong> Unverbindliches Kennenlernen, um Ihre Ziele zu verstehen</li>
-          <li><strong>Fokussierte Sitzungen:</strong> Lösungsorientierte Impulse in kurzer Zeit</li>
-          <li><strong>Nachhaltige Verankerung:</strong> Integration der Ergebnisse in Ihren Alltag</li>
-        </ul>
+          <h3>So funktioniert es:</h3>
+            <p><strong>Erstgespräch:</strong> Unverbindliches Kennenlernen, um Ihre Ziele zu verstehen</p>
+            <p><strong>Fokussierte Sitzungen:</strong> Lösungsorientierte Impulse in kurzer Zeit</p>
+            <p><strong>Nachhaltige Verankerung:</strong> Integration der Ergebnisse in Ihren Alltag</p>
 
-        <p className='actioncall'><em>Bereit für den nächsten Schritt?<br />
-        Kontaktieren Sie uns für ein unverbindliches Erstgespräch und entdecken Sie, wie schnell Veränderung möglich ist</em></p>
+          <p className='actioncall'><em>Bereit für den nächsten Schritt?<br />
+          Kontaktieren Sie mich für ein unverbindliches Erstgespräch und entdecken Sie, wie schnell Veränderung möglich ist</em></p>
+        </div>
       </div>
     </div>
   )

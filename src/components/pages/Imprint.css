@@ -1,0 +1,16 @@
+.imprint-page {
+  padding: 40px;
+  color: #7E001B;
+
+  .imprint-container {
+    padding: 20px;
+
+    h1, h2, h3, p {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}

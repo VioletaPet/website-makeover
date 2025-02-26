@@ -1,5 +1,10 @@
 .cards {
   padding: 50px;
+  background-color: #FFCCD1;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .cards__container {
     width: 100%;
@@ -15,8 +20,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    background-color: rgba(255, 204, 209, 0.6);
-    box-shadow: 1px 1px 15px #b59646;
+    background-color: white;
     margin-bottom: 30px;
 
     .cards__item__info {

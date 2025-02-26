@@ -9,7 +9,22 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const [dropdown, setDropdown] = useState(false);
-  
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
 
   return (
     <>
@@ -31,15 +46,49 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <Link to='/uebermich' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/über-mich' className='nav-links' onClick={closeMobileMenu}>
                 Über mich
               </Link>
             </li>
 
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
+            >
               <Link to='/angebot' className='nav-links' onClick={closeMobileMenu}>
-                Angebot
+                Angebot <i className='fas fa-caret-down' />
               </Link>
+
+              {dropdown && (
+                <ul className='dropdown-menu'>
+                  <li>
+                    <Link to='/angebot/coaching' className='dropdown-link' onClick={closeMobileMenu}>
+                      Lösungsfokussiertes Coaching
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/angebot/psychologische-beratung' className='dropdown-link' onClick={closeMobileMenu}>
+                      Psychologische Beratung
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/angebot/akasha' className='dropdown-link' onClick={closeMobileMenu}>
+                      Akasha Chronik
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/angebot/ernährungsberatung' className='dropdown-link' onClick={closeMobileMenu}>
+                      Ernährungsberatung
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/angebot/yoga' className='dropdown-link' onClick={closeMobileMenu}>
+                      Yoga
+                    </Link>
+                  </li>
+                </ul>
+              )}
             </li>
 
             <li className='nav-item'>
@@ -51,7 +100,7 @@ function Navbar() {
         </div>
       </nav>
     </>
-  )
+  );
 }
 
 export default Navbar

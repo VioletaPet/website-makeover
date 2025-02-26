@@ -80,6 +80,46 @@
   transition: all 0.2s ease-out;
 }
 
+.dropdown-menu {
+  background-color: #7E001B;
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li {
+  background-color: #7E001B;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #FFCCD1;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #FFCCD1;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.dropdown-link:hover {
+  color: #7E001B;
+  transition: all 0.2s ease-out;
+}
+
+.fa-caret-down {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -91,6 +131,8 @@
     width: 100%;
     height: 90vh;
     position: absolute;
+    align-items: center;
+    justify-content: flex-start;
     top: 80px;
     left: -100%;
     opacity: 1;

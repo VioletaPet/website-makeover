@@ -1,7 +1,7 @@
 import React from 'react';
 import './Yoga.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faCoins } from "@fortawesome/free-solid-svg-icons";
 
 const Yoga = () => {
 
@@ -13,7 +13,7 @@ const Yoga = () => {
 
         {/* Ashtanga Vinyasa Yoga */}
         <div className='yoga-card'>
-          <div className='yoga-card-header' style={{ backgroundImage: `url('https://cdn.shopify.com/s/files/1/0077/7587/9266/files/180210_Lotuscrafts_0767_Virabhadrasana2_left_grande.jpg?v=1554196580')` }}>
+          <div className='yoga-card-header' style={{ backgroundImage: `url('/images/services/service/ashtanga.jpg')` }}>
             <h2>Ashtanga Vinyasa Yoga</h2>
           </div>
           <div className='yoga-card-body'>
@@ -26,7 +26,7 @@ const Yoga = () => {
             </ul>
             <p>Meine Stunden bereiten dich optimal darauf vor, die <strong>erste Serie zu meistern</strong>, auch wenn du noch neu im Yoga bist und dich einer <strong>körperlichen und mentalen Challenge</strong> stellen möchtest.
             </p>
-            <p className='suitability'><em><strong>Geeignet für:</strong> Fortgeschrittene Yogis oder motivierte AnfängerInnen, die eine sportpche Herausforderung suchen</em></p>
+            <p className='suitability'><strong>Geeignet für:</strong> Fortgeschrittene Yogis oder motivierte AnfängerInnen, die eine sportpche Herausforderung suchen</p>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ const Yoga = () => {
               <li>Flexibel gestaltbar: ruhig oder fordernd</li>
               <li>Ideal für AnfängerInnen & Fortgeschrittene</li>
             </ul>
-            <p className='suitability'><em><strong>Geeignet für:</strong> Alle, die eine harmonische Praxis suchen, um Körper und Geist in Einklang zu bringen.</em></p>
+            <p className='suitability'><strong>Geeignet für:</strong> Alle, die eine harmonische Praxis suchen, um Körper und Geist in Einklang zu bringen.</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ const Yoga = () => {
               <li>Dynamisch & kraftvoll</li>
               <li>Fördert Kreativität & Flexibilität</li>
             </ul>
-            <p className='suitability'><em><strong>Geeignet für:</strong> Alle, die sich gerne in Bewegung ausdrücken und in einen meditativen Flow eintauchen möchten. Für AnfängerInnen und Fortgeschrittene anpassbar.</em></p>
+            <p className='suitability'><strong>Geeignet für:</strong> Alle, die sich gerne in Bewegung ausdrücken und in einen meditativen Flow eintauchen möchten. Für AnfängerInnen und Fortgeschrittene anpassbar.</p>
           </div>
         </div>
 
@@ -78,23 +78,23 @@ const Yoga = () => {
               <li>Fördert Entspannung & Achtsamkeit</li>
               <li>Wirkt stressreduzierend & regenerierend</li>
             </ul>
-            <p className='suitability'><em><strong>Geeignet für:</strong> Alle, die sich nach innerer Ruhe und emotionalem Ausgleich sehnen. Ideal für AnfängerInnen und Menschen mit körperlichen Einschränkungen</em></p>
+            <p className='suitability'><strong>Geeignet für:</strong> Alle, die sich nach innerer Ruhe und emotionalem Ausgleich sehnen. Ideal für AnfängerInnen und Menschen mit körperlichen Einschränkungen</p>
           </div>
         </div>
 
         {/* Yoga Nidra */}
         <div className='yoga-card'>
-          <div className='yoga-card-header' style={{ backgroundImage: `url('https://cdn.webshopapp.com/shops/71337/files/460067991/yoga-nidra-die-heilende-kraft-des-schlaf-yoga.jpg')` }}>
+          <div className='yoga-card-header' style={{ backgroundImage: `url('/images/services/service/nidra.jpg')` }} id='nidra-img'>
             <h2>Yoga Nidra</h2>
           </div>
           <div className='yoga-card-body'>
             <p>Auch bekannt als der <strong>„Schlaf des Yogi“</strong>, ist <strong>Yoga Nidra</strong> eine kraftvolle Methode der <strong>tiefen Entspannung</strong> und des mentalen Trainings. In einem Zustand zwischen Wachsein und Schlaf beruhigen sich die Gehirnwellen, was zu tiefer Regeneration führt.</p>
             <ul>
-              <li>Stressabbau & Verbesserung der SChlafqualität</li>
+              <li>Stressabbau & Verbesserung der Schlafqualität</li>
               <li>Stärkung der mentalen Klarheit & Konzentration</li>
               <li>Unterstützt persönliche Entwicklung & Manifestation</li>
             </ul>
-            <p className='suitability'><em><strong>Geeignet für:</strong> Menschen mit Stress, Schlafproblemen oder dem Wunsch nach tiefer Selbstreflexion</em></p>
+            <p className='suitability'><strong>Geeignet für:</strong> Menschen mit Stress, Schlafproblemen oder dem Wunsch nach tiefer Selbstreflexion</p>
           </div>
         </div>
 
@@ -113,7 +113,7 @@ const Yoga = () => {
             <p className='suitability'>Schreiben Sie mir gerne eine E-Mail – wir finden gemeinsam ein passendes Konzept für Ihr Unternehmen!</p>
           </div>
           <div className='price-box'>
-            <FontAwesomeIcon icon={faSun} className='price-icon' />
+            <FontAwesomeIcon icon={faCoins} className='price-icon' />
             <p>Stundensatz: 80€ - 100€ (abhängig vom Anfahrtsweg)</p>
           </div>
         </div>
