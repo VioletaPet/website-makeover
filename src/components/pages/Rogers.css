@@ -38,9 +38,9 @@
       height: 100%;
 
       img {
-        width: 50%; /* Takes up half the space */
-        height: 100%; /* Ensures it fills the div */
-        object-fit: cover; /* Ensures it covers without distortion */
+        width: 50%;
+        height: 100%; 
+        object-fit: cover;
         object-position: center;
       }
 
@@ -89,36 +89,174 @@
     color: #b59646;
   }
 
-    h2 {
-      font-size: 30px;
-      margin-bottom: 30px;
-    }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
 
-    h3 {
-      margin-top: 40px;
-      margin-bottom: 20px;
-      font-size: 36px;
-    }
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
 
-    p {
-      font-size: 26px;
-      margin-bottom: 15px;
-    }
+  p {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
 
-    ul {
-      font-size: 22px;
-      list-style-position: inside;
-      margin-bottom: 20px;
+  ul {
+    font-size: 22px;
+    list-style-position: inside;
+    margin-bottom: 20px;
 
-      li {
-        margin-bottom: 8px;
-      }
+    li {
+      margin-bottom: 8px;
     }
+  }
 
-    .actioncall {
-      padding-top: 100px;
-      margin-bottom: 0;
-      font-size: 30px;
-      text-align: center;
-    }
+  .actioncall {
+    padding-top: 100px;
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .rogers-page .pink-background {
+    padding: 0 80px;
+    height: auto;
+    min-height: 80vh;
+  }
+
+  .rogers-page .pink-background .inner-content {
+    padding: 10px 50px 50px 50px;
+  }
+
+  .rogers-page #top-section {
+    height: auto;
+    min-height: 80vh;
+    padding: 0 20px 30px 0;
+  }
+
+  .rogers-page #top-section .content {
+    flex-direction: column;
+  }
+
+  .rogers-page #top-section .content img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .rogers-page #top-section .content .content-text {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .rogers-page #intro-white {
+    padding: 40px 20px;
+  }
+
+  .rogers-page .white-background {
+    padding: 10px 80px 50px 80px;
+    height: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
+
+  .rogers-page h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .rogers-page h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .rogers-page h3 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .rogers-page p {
+    font-size: 22px;
+  }
+
+  .rogers-page ul {
+    font-size: 20px;
+  }
+
+  .rogers-page .actioncall {
+    padding-top: 60px;
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rogers-page .pink-background {
+    padding: 0 20px;
+    min-height: auto;
+  }
+
+  .rogers-page .pink-background .inner-content {
+    padding: 10px 0 30px 0;
+  }
+
+  .rogers-page #top-section {
+    padding: 0 10px 20px 0;
+    min-height: auto;
+  }
+
+  .rogers-page #top-section .content img {
+    height: 250px;
+  }
+
+  .rogers-page #top-section .content .content-text {
+    padding: 20px 10px;
+  }
+
+  .rogers-page #intro-white {
+    padding: 30px 15px;
+  }
+
+  .rogers-page .white-background {
+    padding: 10px 20px 40px 20px;
+    min-height: auto;
+  }
+
+  .rogers-page h1 {
+    font-size: 32px;
+    margin: 15px auto 25px auto;
+    text-align: center;
+  }
+
+  .rogers-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .rogers-page h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .rogers-page p {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .rogers-page ul {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  .rogers-page .actioncall {
+    padding-top: 40px;
+    font-size: 22px;
+  }
 }

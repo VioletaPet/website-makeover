@@ -114,3 +114,84 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .akasha-page {
+    h1 {
+      font-size: 40px;
+    }
+
+    #top-section {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+
+      .content {
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .content-text {
+          width: 100%;
+          padding: 30px;
+        }
+      }
+    }
+
+    .pink-background,
+    .white-background {
+      padding: 50px;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    .price-box {
+      position: relative;
+      bottom: auto;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .akasha-page {
+    h1, h2, h3 {
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 26px;
+    }
+
+    ul {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .price-box {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+}

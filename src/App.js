@@ -12,12 +12,15 @@ import Rogers from './components/pages/Rogers';
 import Coaching from './components/pages/Coaching';
 import About from './components/pages/About';
 import Imprint from './components/pages/Imprint';
+import Contact from './components/pages/Contact';
+import ScrollingUp from './components/ScrollingUp';
 
 const App = () => {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollingUp />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/angebot" element={<Angebot />} />
@@ -28,6 +31,7 @@ const App = () => {
             <Route path="/angebot/coaching" element={<Coaching />} />
             <Route path="/über-mich" element={<About />} />
             <Route path="/impressum-und-datenschutz" element={<Imprint />} />
+            <Route path="/kontakt" element={<Contact />} />
           </Routes>
         <Footer />
       </Router>

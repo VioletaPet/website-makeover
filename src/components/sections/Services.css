@@ -42,10 +42,6 @@
   object-fit: cover;
 }
 
-/* #nutrition-img {
-  object-position: 10% 40%;
-} */
-
 #yoga-img{
   object-position: 0 60%;
 }
@@ -99,5 +95,41 @@
     margin: 0;
     min-width: 280px; /* Ensures cards don't get too small */
     max-width: 500px; /* Ensures cards don't get too wide */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cards__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards__item {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .cards {
+    padding: 30px 20px;
+    height: auto;
+  }
+
+  .cards__item__header {
+    font-size: 24px;
+  }
+
+  .cards__item__header h3 {
+    margin-bottom: 30px;
+  }
+
+  .cards__item__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .cards__item__text p {
+    font-size: 18px;
   }
 }
