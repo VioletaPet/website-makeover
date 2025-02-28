@@ -8,7 +8,7 @@ function BannerSection () {
   return (
     <div className='banner-container' style={{ backgroundImage: `url(${banner})` }}>
       <div className="banner-section">
-        <p>Lass uns deine Akkus wieder aufladen und gemeinsam mit noch mehr Leichtigkeit durch's Leben gehen!</p>
+        <p>Lass uns deine Akkus wieder aufladen und gemeinsam mit noch mehr Leichtigkeit durch's Leben schreiten!</p>
           <Link to='/angebot'>
           <button className='btn btn--large'>
             Mehr erfahren

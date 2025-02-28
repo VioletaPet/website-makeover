@@ -18,7 +18,7 @@ form {
   }
 
   input {
-    width: 100%;
+    width: 50%;
     height: 35px;
     padding: 7px;
     outline: none;
@@ -31,9 +31,7 @@ form {
   }
 
   textarea {
-    max-width: 100%;
-    min-width: 100%;
-    width: 100%;
+    width: 70%;
     max-height: 100px;
     min-height: 100px;
     padding: 7px;
@@ -52,8 +50,25 @@ form {
   }
 
   #subject {
-    background-color: #ffe0e3;
     font-size: 14px;
+
+  }
+
+  select {
+    width: 50%;
+    height: 35px;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: white;
+    cursor: pointer;
+    transition: border 0.3s ease-in-out;
+    color: #7E001B;
+
+    &:focus {
+      border: 2px solid #b59646;
+    }
   }
 
   input[type="submit"] {
@@ -63,7 +78,7 @@ form {
     color: white;
     border: none;
     width: 20%;
-    align-self: center;
+    align-self: flex-start;
     font-size: 16px;
     transition: background 0.3s ease-in-out;
 

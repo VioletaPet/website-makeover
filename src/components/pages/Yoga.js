@@ -32,7 +32,7 @@ const Yoga = () => {
 
         {/* Hatha Yoga */}
         <div className='yoga-card'>
-          <div className='yoga-card-header' style={{ backgroundImage: `url('https://cdn.shopify.com/s/files/1/0077/7587/9266/files/hatha-yoga-kuh-lotuscrafts_1024x1024.jpg?v=1576668776')` }}>
+          <div className='yoga-card-header' style={{ backgroundImage: `url('/images/services/hatha.jpg')` }}>
             <h2>Hatha Yoga</h2>
           </div>
           <div className='yoga-card-body'>
@@ -53,7 +53,7 @@ const Yoga = () => {
 
         {/* Vinyasa Yoga */}
         <div className='yoga-card'>
-          <div className='yoga-card-header' style={{ backgroundImage: `url('https://cdn.yogaeasy.de/production/uploads/article/picture/2642/large_article_vinyasayoga_bewegung_flow_1_Nicole_Bongartz_artikel.jpg')`}}>
+          <div className='yoga-card-header' style={{ backgroundImage: `url('/images/services/vinyasa.jpg')`}} id='vinyasa-img'>
             <h2>Vinyasa Yoga</h2>
           </div>
           <div className='yoga-card-body'>
@@ -69,7 +69,7 @@ const Yoga = () => {
 
         {/* Yin Yoga */}
         <div className='yoga-card'>
-          <div className='yoga-card-header' style={{ backgroundImage: `url('https://www.amoena.com/Images/Article/Corporate-Content/Yin_Yoga/Amoena_Yin_Yoga_exercise05_butterfly.jpg')` }} >
+          <div className='yoga-card-header' style={{ backgroundImage: `url('/images/services/yin.jpg')` }} >
             <h2>Yin Yoga</h2>
           </div>
           <div className='yoga-card-body'>
@@ -100,7 +100,7 @@ const Yoga = () => {
 
         {/* Betriebsyoga */}
         <div className='yoga-card'>
-          <div className='yoga-card-header' style={{ backgroundImage: `url('https://www.yoga-in-winsen.de/wp-content/uploads/wie-laeuft-firmenyogastunde-ab-800.png')` }}>
+          <div className='yoga-card-header' style={{ backgroundImage: `url('/images/services/betrieb.jpg')` }} id='betrieb-img' >
             <h2>Betriebsyoga</h2>
           </div>
           <div className='yoga-card-body'>

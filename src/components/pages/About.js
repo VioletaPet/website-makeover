@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import BookingModal from '../BookingModal';
 
 export const About = () => {
   return (
@@ -35,7 +36,9 @@ export const About = () => {
           <img src="/images/services/service/consultation2.jpg" alt="Beratungszimmer"/>
           <div className='content-text'>
             <h2>Kostenfreies Kennenlerngespräch</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Ich lade Sie herzlich zu einem kostenlosen, telefonischen Kennenlerngespräch ein. In 20 Minuten haben wir die Möglichkeit, uns ganz entspannt auszutauschen. Sie können mir Ihr Anliegen schildern, erste Fragen stellen und ein Gefühl dafür bekommen, ob die Chemie zwischen uns stimmt. Dieses Gespräch ist völlig unverbindlich – es geht darum, einen ersten Eindruck voneinander zu gewinnen und gemeinsam zu schauen, wie ich Sie am besten unterstützen kann.<br />
+            Ich freue mich darauf, Sie kennenzulernen! 💛</p>
+            <BookingModal className='booking-modal'/>
           </div>
         </div>
       </div>

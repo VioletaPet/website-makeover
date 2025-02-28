@@ -86,6 +86,10 @@
 
     .content-text {
       width: 50%;
+
+      p {
+        margin-bottom: 20px;
+      }
     }
   }
 

@@ -33,6 +33,8 @@ console.log("Public Key:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
   return (
     <form ref={form} onSubmit={sendEmail}>
       <h1>Kontaktformular</h1>
+      <h3>Bei Fragen, Buchungsanfragen oder sonstigem Mitteilungswunsch dürfen Sie mich gerne mithilfe des Kontaktformulars oder direkt per Email an info@re-energize.de kontaktieren</h3>
+
       <label>Name</label>
       <input type="text" name="user_name" />
 

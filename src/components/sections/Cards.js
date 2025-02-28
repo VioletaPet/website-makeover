@@ -1,13 +1,17 @@
-import React from 'react'
-import CardItem from '../CardItem'
-import './Cards.css'
+import React from 'react';
+import CardItem from '../CardItem';
+import './Cards.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFaceRollingEyes } from '@fortawesome/free-solid-svg-icons';
+import { faFaceSmileWink } from '@fortawesome/free-solid-svg-icons';
+import { faToolbox } from '@fortawesome/free-solid-svg-icons';
 
 function Cards() {
   return (
     <div className='cards'>
-      <div className="cards__container">
+      <div className='cards__container'>
         <CardItem
-          header='Problem'
+          header={<FontAwesomeIcon icon={faFaceRollingEyes} />}
           text={
             <>
               <p>Für manche kann es sich in Schlafproblemen äußern, in <strong>Müdigkeit</strong> oder <strong>Konzentrationsschwäche</strong> durch den Tag hindurch. Und für manche ist es eine <strong>innere Unruhe</strong> und <strong>Rastlosigkeit</strong>.</p>
@@ -18,7 +22,7 @@ function Cards() {
           }
         />
         <CardItem
-          header='Lösung'
+          header={<FontAwesomeIcon icon={faFaceSmileWink} />}
           text={
             <>
               <p>Deshalb findest du in meinem Studio verschiedene Wege, die dich <strong>genau dort abholen, wo du gerade stehst</strong>. Egal, ob dein Körper nach <strong>Bewegung</strong> ruft, deine Seele nach <strong>Entspannung</strong> sucht, oder dein Geist nach <strong>Klarheit</strong> verlangt - hier ist Raum für all das.</p>
@@ -30,7 +34,7 @@ function Cards() {
       </div>
       <div className="cards__container">
         <CardItem
-          header='Mission'
+          header={<FontAwesomeIcon icon={faToolbox} />}
           text={
             <>
               <p>Meine Mission ist es, dich mit mehr Energie zu verabschieden, als ich dich empfangen hab, und dir stets einen Mehrwert mitzugeben, den du unmittelbar in deinem Alltag spürst.</p>

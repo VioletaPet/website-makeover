@@ -44,6 +44,14 @@
         background-position: 0 35%;
       }
 
+      #vinyasa-img {
+        background-position: 0 30%;
+      }
+
+      #betrieb-img {
+        background-position: 0 50%;
+      }
+
       .yoga-card-body {
         padding: 40px 60px;
         text-align: center;
@@ -98,7 +106,7 @@
   }
 
   .yoga-grid {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     padding: 15px;
   }
@@ -108,7 +116,7 @@
   }
 
   .yoga-card-header {
-    height: 280px; 
+    height: 280px;
   }
 
   .yoga-card-body p,
