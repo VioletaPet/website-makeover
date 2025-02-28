@@ -1,0 +1,48 @@
+.massage-page {
+  background-color: #FFCCD1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+  h1 {
+    color: #b59646;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  img {
+    height: auto;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .massage-page {
+    padding: 30px;
+  }
+
+  .massage-page h1 {
+    font-size: 40px;
+  }
+
+  .massage-page img {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .massage-page {
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .massage-page h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .massage-page img {
+    width: 100%;
+  }
+}

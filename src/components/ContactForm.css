@@ -1,8 +1,28 @@
 .contact-page {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
+  padding: 50px;
+  gap: 100px;
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #7E001B;
+    text-align: justify;
+
+    p {
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
 }
 
 form {
@@ -12,10 +32,6 @@ form {
   width: 50%;
   font-size: 20px;
   color: #6d1327;
-
-  h1 {
-    margin-bottom: 20px;
-  }
 
   input {
     width: 50%;
@@ -77,6 +93,7 @@ form {
     background: #7E001B;
     color: white;
     border: none;
+    height: 50px;
     width: 20%;
     align-self: flex-start;
     font-size: 16px;

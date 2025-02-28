@@ -56,7 +56,7 @@ console.log("Public Key:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
 
       <label>Nachricht</label>
       <textarea name="message" />
-      <input type="submit" value="Senden" />
+      <input type="submit" value="SENDEN" />
     </form>
   );
 };

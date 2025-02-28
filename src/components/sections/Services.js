@@ -41,6 +41,13 @@ function Services() {
           header='Yoga'
           text='Ich unterrichte derzeit regelmäßig in Halle in verschiedenen Fitnessstudios, dem Unisport sowie der Volkshochschule (VHS). Meine Yoga-Ausbildungen (insgesamt 500 Stunden) habe ich in Indien und in Heimbach in der Eifel absolviert. Neben meinen regelmäßigen Kursen bin ich auch für private und geschäftliche Events buchbar, darunter Geburtstage, Gesundheitstage, Betriebsyoga, Festivals, Schulklassen und vieles mehr.'
         />
+        <ServiceItem
+          src='../../images/services/massage.jpg'
+          imgId='massage-img'
+          path='/angebot/massagen'
+          header='Massage'
+          text='Ich biete ayurvedische Massagen für Ganzkörper, Rücken, Gesicht und Kopf an. Jede Massage ist darauf ausgerichtet, tiefe Entspannung zu fördern, Verspannungen zu lösen und das Wohlbefinden zu steigern. Mit achtsamen Berührungen und traditionellen Techniken unterstütze ich dich dabei, neue Energie zu tanken.'
+        />
       </div>
     </div>
   )
