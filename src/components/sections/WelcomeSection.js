@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../App.css'
-import './WelcomeSection.css'
+import '../../App.scss'
+import './WelcomeSection.scss'
 
 function WelcomeSection() {
   return (

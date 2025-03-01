@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css'
-import BannerSection from '../sections/BannerSection'
+import '../../App.scss';
+import BannerSection from '../sections/BannerSection';
 import WelcomeSection from '../sections/WelcomeSection';
 import IntroSection from '../sections/IntroSection';
 import Cards from '../sections/Cards';

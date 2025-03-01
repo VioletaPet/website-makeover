@@ -1,6 +1,10 @@
+$dark-pink: #7E001B;
+$light-pink: #FFCCD1;
+$gold: #b59646;
+
 .services {
   padding: 50px;
-  background-color: #FFCCD1;
+  background-color: $light-pink;
 }
 
 .services__container {
@@ -27,13 +31,13 @@
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 2px 2px 20px #b59646;
+    box-shadow: 2px 2px 20px $gold;
   }
 }
 
 .service__item__link {
   text-decoration: none;
-  color: #7E001B;
+  color: $dark-pink;
 }
 
 .service__item__img {
@@ -42,7 +46,7 @@
   object-fit: cover;
 }
 
-#yoga-img{
+#yoga-img {
   object-position: 0 60%;
 }
 
@@ -52,22 +56,22 @@
 }
 
 .service__item__header {
-  color: #7E001B;
+  color: $dark-pink;
   font-size: 26px;
   margin-bottom: 20px;
 }
 
-  .service__item__text {
-    color: #7E001B;
-    font-size: 18px;
-    line-height: 24px;
-    height: 100%;
+.service__item__text {
+  color: $dark-pink;
+  font-size: 18px;
+  line-height: 24px;
+  height: 100%;
 
-    p {
-      margin-top: 20px;
-      font-size: 24px;
-    }
+  p {
+    margin-top: 20px;
+    font-size: 24px;
   }
+}
 
 @media (max-width: 768px) {
   .services__container {
@@ -91,10 +95,10 @@
   }
 
   .service__item {
-    flex: 0 0 calc(50% - 45px); /* Takes up roughly half the container width minus gap and margins */
+    flex: 0 0 calc(50% - 45px);
     margin: 0;
-    min-width: 280px; /* Ensures cards don't get too small */
-    max-width: 500px; /* Ensures cards don't get too wide */
+    min-width: 280px;
+    max-width: 500px;
   }
 }
 
@@ -118,18 +122,18 @@
 
   .cards__item__header {
     font-size: 24px;
-  }
 
-  .cards__item__header h3 {
-    margin-bottom: 30px;
+    h3 {
+      margin-bottom: 30px;
+    }
   }
 
   .cards__item__text {
     font-size: 16px;
     line-height: 22px;
-  }
 
-  .cards__item__text p {
-    font-size: 18px;
+    p {
+      font-size: 18px;
+    }
   }
 }

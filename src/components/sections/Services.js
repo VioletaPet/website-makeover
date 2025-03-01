@@ -1,6 +1,6 @@
 import React from 'react';
 import ServiceItem from '../ServiceItem';
-import './Services.css';
+import './Services.scss';
 
 function Services() {
   return (

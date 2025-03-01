@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css';
-import './BannerSection.css';
+import '../../App.scss';
+import './BannerSection.scss';
 import banner from '../../images/banner.png';
 import { Link } from 'react-router-dom';
 

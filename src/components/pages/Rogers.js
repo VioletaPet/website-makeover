@@ -1,5 +1,5 @@
 import React from 'react';
-import './Rogers.css';
+import './Rogers.scss';
 
 export const Rogers = () => {
   return (

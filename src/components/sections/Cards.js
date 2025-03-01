@@ -1,6 +1,6 @@
 import React from 'react';
 import CardItem from '../CardItem';
-import './Cards.css';
+import './Cards.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFaceRollingEyes } from '@fortawesome/free-solid-svg-icons';
 import { faFaceSmileWink } from '@fortawesome/free-solid-svg-icons';

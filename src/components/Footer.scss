@@ -1,8 +1,11 @@
+$dark-pink: #7E001B;
+$light-pink: #FFCCD1;
+
 .footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #7E001B;
+  background-color: $dark-pink;
   padding: 20px 40px;
   width: 100%;
   height: 100px;
@@ -14,28 +17,25 @@
 
   .footer-link-group {
     display: flex;
-    gap: 20px;
     flex: 1;
     justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     flex-direction: row;
     gap: 40px;
 
-      a {
-        color: #FFCCD1;
-        text-decoration: none;
-        font-size: 16px;
-        transition: color 0.3s ease;
-        font-size: 24px;
+    a {
+      color: $light-pink;
+      text-decoration: none;
+      font-size: 24px;
+      transition: color 0.3s ease;
 
-        &:hover {
-          color: white;
-          border-bottom: solid 1px white;
-        }
+      &:hover {
+        color: white;
+        border-bottom: solid 1px white;
       }
+    }
   }
 }
 
@@ -47,13 +47,13 @@
   }
 
   .footer-link-group {
-    flex-direction: column; /* Stack links vertically */
+    flex-direction: column;
     gap: 10px;
     margin-top: 10px;
     font-size: 20px;
   }
 
   img {
-    width: 100px; /* Adjust logo size */
+    width: 100px;
   }
 }

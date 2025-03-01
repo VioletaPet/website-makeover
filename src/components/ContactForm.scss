@@ -1,3 +1,8 @@
+// Color Variables
+$dark-pink: #7E001B;
+$light-pink: #FFCCD1;
+$gold: #b59646;
+
 .contact-page {
   display: flex;
   justify-content: center;
@@ -10,7 +15,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    color: #7E001B;
+    color: $dark-pink;
     text-align: justify;
 
     p {
@@ -31,18 +36,23 @@ form {
   flex-direction: column;
   width: 50%;
   font-size: 20px;
-  color: #6d1327;
+  color: darken($dark-pink, 10%);
 
-  input {
+  label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  input, textarea, select {
     width: 50%;
-    height: 35px;
     padding: 7px;
-    outline: none;
     border-radius: 5px;
     border: 1px solid rgb(220, 220, 220);
+    outline: none;
+    transition: border 0.3s ease-in-out;
 
     &:focus {
-      border: 2px solid #b59646;
+      border: 2px solid $gold;
     }
   }
 
@@ -50,47 +60,24 @@ form {
     width: 70%;
     max-height: 100px;
     min-height: 100px;
-    padding: 7px;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid rgb(220, 220, 220);
-
-    &:focus {
-      border: 2px solid #b59646;
-    }
-  }
-
-  label {
-    margin-top: 20px;
-    margin-bottom: 5px;
   }
 
   #subject {
     font-size: 14px;
-
   }
 
   select {
-    width: 50%;
     height: 35px;
-    padding: 7px;
     font-size: 18px;
-    border-radius: 5px;
-    border: 1px solid rgb(220, 220, 220);
     background-color: white;
     cursor: pointer;
-    transition: border 0.3s ease-in-out;
-    color: #7E001B;
-
-    &:focus {
-      border: 2px solid #b59646;
-    }
+    color: $dark-pink;
   }
 
   input[type="submit"] {
     margin-top: 2rem;
     cursor: pointer;
-    background: #7E001B;
+    background: $dark-pink;
     color: white;
     border: none;
     height: 50px;
@@ -100,7 +87,7 @@ form {
     transition: background 0.3s ease-in-out;
 
     &:hover {
-      background: #f7c1c6;
+      background: $light-pink;
     }
   }
 }

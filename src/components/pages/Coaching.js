@@ -1,5 +1,5 @@
 import React from 'react';
-import './Coaching.css';
+import './Coaching.scss';
 
 export const Coaching = () => {
   return (
@@ -9,7 +9,7 @@ export const Coaching = () => {
           <img src='/images/services/service/coaching2.jpg' alt='Foto von Elizabeth'/>
           <div className='content-text'>
             <h1>Lösungsfokussiertes Kurzzeit-Coaching nach Milton Erickson</h1>
-            <h2><em>“die krise ist ein produktiver zustand, wenn man ihr den beigeschmack der katastrophe nimmt”</em></h2>
+            <h2><em>“Die Krise ist ein produktiver Zustand, wenn man ihr den Beigeschmack der Katastrophe nimmt”</em></h2>
             <h2>Fokus. Ressourcen. Veränderung.</h2>
             <p>Manchmal braucht es keine langen Analysen der Vergangenheit, sondern den klaren Blick nach vorn. Das lösungsfokussierte Kurzzeit-Coaching nach Milton Erickson unterstützt Sie dabei, Ihre eigenen Ressourcen zu aktivieren und konkrete Schritte in Richtung Ihrer Ziele zu gehen.</p>
           </div>

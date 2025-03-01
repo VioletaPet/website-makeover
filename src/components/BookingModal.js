@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Button, Typography, Modal } from '@mui/material';
-import './BookingModal.css';
+import './BookingModal.scss';
 
 export const BookingModal = () => {
   const [open, setOpen] = useState(false);

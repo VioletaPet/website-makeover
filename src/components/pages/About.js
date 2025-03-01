@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './About.scss';
 import BookingModal from '../BookingModal';
 
 export const About = () => {

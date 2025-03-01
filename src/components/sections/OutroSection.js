@@ -1,5 +1,5 @@
-import React from 'react'
-import './OutroSection.css'
+import React from 'react';
+import './OutroSection.scss';
 
 
 function OutroSection() {

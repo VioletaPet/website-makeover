@@ -1,5 +1,5 @@
 import React from 'react';
-import './Akasha.css';
+import './Akasha.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoins } from "@fortawesome/free-solid-svg-icons";
 

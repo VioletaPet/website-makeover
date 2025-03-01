@@ -1,3 +1,5 @@
+$dark-pink: #7E001B;
+
 .banner-container {
   background-size: cover;
   background-position: center;
@@ -17,14 +19,14 @@
     align-items: center;
 
     p {
-      color: #7E001B;
+      color: $dark-pink;
       font-size: 60px;
       transition: font-size 0.3s ease;
     }
 
     .btn {
       color: #d8d8d8;
-      background-color: #7E001B;
+      background-color: $dark-pink;
       padding: 12px 24px;
       border-radius: 20px;
       font-size: 20px;
@@ -41,56 +43,30 @@
   }
 }
 
-/* MID DESKTOP SCREEN */
 @media screen and (max-width: 1400px) and (min-width: 601px) {
   .banner-container {
-    background-size: cover;
     background-position: 80% 0%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 
     .banner-section {
-      display: flex;
-      flex-direction: column;
       width: 50%;
       margin-left: 20px;
-      text-align: center;
-      align-items: center;
 
       p {
-        color: #7E001B;
         font-size: 50px;
       }
     }
   }
 }
 
-/* MOBILE SCREEN */
 @media screen and (max-width: 600px) {
   .banner-container {
-    background-size: cover;
     background-position: 80% 0%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 
     .banner-section {
-      display: flex;
-      flex-direction: column;
       width: 50%;
       margin-left: 0;
-      text-align: center;
-      align-items: center;
 
       p {
-        color: #7E001B;
         font-size: 30px;
       }
     }

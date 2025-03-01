@@ -1,5 +1,5 @@
 import React from 'react';
-import './Nutrition.css';
+import './Nutrition.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoins } from "@fortawesome/free-solid-svg-icons";
 

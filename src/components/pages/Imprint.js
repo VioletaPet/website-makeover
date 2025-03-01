@@ -1,5 +1,5 @@
 import React from 'react';
-import './Imprint.css';
+import './Imprint.scss';
 
 export const Imprint = () => {
   return (

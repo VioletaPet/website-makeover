@@ -1,5 +1,5 @@
 import React from 'react';
-import './Massage.css';
+import './Massage.scss';
 
 export const Massage = () => {
   return (

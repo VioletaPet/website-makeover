@@ -1,6 +1,6 @@
-import React from 'react'
-import '../../App.css'
-import './IntroSection.css'
+import React from 'react';
+import '../../App.scss';
+import './IntroSection.scss';
 
 function IntroSection() {
   return (

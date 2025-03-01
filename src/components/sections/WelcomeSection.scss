@@ -1,12 +1,13 @@
+$dark-pink: #7E001B;
+
 .welcome-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 
   p {
-    color: #7E001B;
+    color: $dark-pink;
     font-size: 80px;
     letter-spacing: 5px;
     text-align: center;
@@ -18,31 +19,25 @@
   }
 }
 
-/* MID DESKTOP AND TABLET SCREEN */
 @media screen and (max-width: 1400px) and (min-width: 601px) {
   .welcome-container {
     p {
-      text-align: center;
       font-size: 60px;
     }
 
     img {
-      width: auto;
       height: 200px;
     }
   }
 }
 
-/* MOBILE SCREEN */
 @media screen and (max-width: 600px) {
   .welcome-container {
     p {
-      text-align: center;
       font-size: 30px;
     }
 
     img {
-      width: auto;
       height: 150px;
     }
   }

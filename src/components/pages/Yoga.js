@@ -1,5 +1,5 @@
 import React from 'react';
-import './Yoga.css';
+import './Yoga.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoins } from "@fortawesome/free-solid-svg-icons";
 
