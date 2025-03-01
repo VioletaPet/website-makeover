@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 import { Footer as FlowbiteFooter } from "flowbite-react";
 
 function Footer() {
