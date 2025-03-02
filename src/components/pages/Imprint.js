@@ -1,7 +1,7 @@
 import React from 'react';
 import './Imprint.scss';
 
-export const Imprint = () => {
+const Imprint = () => {
   return (
     <div className='imprint-page'>
       <div className='imprint-container'>

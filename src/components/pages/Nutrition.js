@@ -43,7 +43,7 @@ const Nutrition = () => {
         <p><strong>Pflanzenpower & Nährstoffbalance:</strong> Optimal versorgt ohne Verzicht</p>
       </div>
 
-      <div className='pink-background'>
+      <div className='pink-background' id='last-section'>
         <div className='inner-content'>
           <h3>Dein Nutzen</h3>
           <ul>
